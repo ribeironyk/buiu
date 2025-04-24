@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>FILMES</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou monyk_</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou estudante do ensino fundamental no colegio estadual padre claudio morelli. estou aprendendo programação usando HTML, CSS e JavaScript com o querido buiu. E amo filme de terror</p>
+        <p>Meus Filmes Preferidos</p>
+        <div>
+            <p class="badge bg-secondary">Quando as luzes se apagam</p>
+            <p class="badge bg-secondary">Invocação do mal</p>
+            <p class="badge bg-secondary">freira 2</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>FILMES</h2>
+        <div class="row">
+            <!-- Quando as Luzes se Apagam -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/filme1.jpg" class="card-img-top" alt="imagem do projeto da biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Quando As Luzes Se Apagam</h5>
+                        <p class="card-text">O filme aborda relações familiares frágeis unidas pelo amor, com uma narrativa envolvente e personagens bem desenvolvidos.
+                             Mesmo utilizando clichês do terror, consegue manter a tensão graças à direção e fotografia impressionantes,
+                              que utilizam ângulos criativos para transmitir medo e vulnerabilidade.
+                            Destaca-se também a construção atmosférica, que usa o som e a iluminação de forma eficaz para criar expectativa e angústia.
+                             A simbiose entre o visual e a trilha sonora torna cada aparição da entidade ainda mais impactante,
+                              ajudando a envolver o espectador em uma experiência sensorial intensa.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Sobre o filme</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Invocação do mal -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/filme 2 (1).jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Invocação do Mal</h5>
+                        <p class="card-text">Esse filme apresenta uma narrativa que vai além do simples terror sobrenatural,
+                             explorando profundamente o medo humano diante do desconhecido. A história se desenvolve de forma gradual,
+                              permitindo que o espectador crie uma conexão emocional com a família Perron,
+                               cuja vida comum é abruptamente invadida por forças invisíveis e ameaçadoras. 
+                               O roteiro trabalha bem o contraste entre a calma do ambiente familiar e a presença crescente do mal,
+                                intensificando o sentimento de vulnerabilidade.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Sobre o filme</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- filme 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/filme 3.webp" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Freira 2
+                        </h5>
+                        <p class="card-text">aprofunda o universo do terror sobrenatural iniciado no universo de Invocação do Mal,
+                             retornando com a figura demoníaca de Valak, agora ameaçando uma escola na França durante os anos 1950. A narrativa acompanha a Irmã Irene,
+                              que, após os eventos do primeiro filme, é chamada novamente para enfrentar essa força maligna,
+                               unindo coragem e fé em uma batalha espiritual intensa.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Sobre o filme</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quando As Luzes Se Apagam</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>É uma história que se trata de relações familiares. É uma narrativa bem desenvolvida,
+                         abordando um amor que une uma família desgastada e desestruturada pelo tempo e pela perda. 
+                         Que proporciona uma boa exploração dos personagens, suas personalidades,
+                          suas fraquezas e suas forças. Até a entidade possui um desenvolvimento próprio e,
+                           apesar de parecer uma receita de improbabilidade com um toque de clichê, a sua história nos convence.</p>
+                    <p>A adaptação do curta-metragem, realizado pelo mesmo diretor Sandberg,
+                        conta com vários outros elementos clichês de terror que estamos sempre acostumados a ver,
+                        fazendo com que inúmeras cenas se tornem previsíveis, como, por exemplo,
+                        os planos-detalhe para uma maçaneta girando ou o esconderijo secreto da entidade no porão. 
+                        Ainda assim, o filme tem êxito em deixar você tenso e atrair sustos todas as vezes,
+                         pois desde o início já sabemos do que aquele monstro é capaz de fazer e a iminência de outro ataque nos aterroriza.</p>
+                    <p>Isto se deve, com certeza, ao mérito da impressionante direção e da direção de fotografia, que elevaram as expectativas,
+                         sendo muito bem executados cinematograficamente. Vários recursos e ângulos diferentes foram usados para criar o medo e a tensão em tela.
+                          Dentre eles, podemos citar as cenas em ângulo inclinado que capturou perfeitamente o estado de perplexidade, medo,
+                           e confusão na mente da protagonista Rebecca; os ângulos plongée e contra-plongée utilizados respectivamente em planos
+                            e contra-planos sucessivos para dar impressão de que a entidade cresce assustadoramente e na mesma proporção em que a personagem 
+                            diminui seu tamanho, demonstrando sua inferioridade e sua fraqueza perante a criatura.
+                        Ficou maravilhoso em tela </p>
+                    
+                    <img src="img/filme 1.2.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer"></div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Invocação do Mal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>As emoções transmitidas vão do pânico e desespero à fé e coragem. O medo é construído não só pelos sustos,
+                         mas também pela sensação de impotência dos personagens. A presença dos Warren adiciona uma camada de esperança e determinação,
+                          revelando que, mesmo diante do terror, o amor e a união podem ser armas poderosas.
+                           O filme toca o espectador por transmitir não apenas o medo do sobrenatural, |
+                           mas também o medo de perder o controle sobre aquilo que mais se ama.
+                    </p>
+                    <p>Essa dualidade entre luz e escuridão é uma das maiores forças da narrativa. 
+                        O filme não se limita a explorar o mal como algo externo,
+                         mas também como algo que ameaça romper os laços mais profundos entre os personagens.
+                        Cada manifestação sobrenatural funciona como um teste para a família, revelando fragilidades,
+                         mas também destacando a força do vínculo entre eles. A dor e o medo se tornam elementos que, paradoxalmente,
+                         aproximam e fortalecem os laços afetivos, mostrando que o verdadeiro terror está em ver quem se ama em perigo — e não poder fazer nada.</p>
+                    <p>Além disso, a atuação sensível de Vera Farmiga e Patrick Wilson como Lorraine e Ed Warren intensifica o envolvimento emocional.
+                         Eles não são apenas caçadores de fantasmas, mas figuras empáticas que carregam suas próprias dores e traumas. 
+                         Essa dimensão mais humana do casal reforça a ideia de que, mesmo em um mundo tomado pelo inexplicável,
+                          existe espaço para a compaixão, a coragem e a fé. É essa combinação de terror psicológico e profundidade emocional
+                           que transforma Invocação do Mal em uma experiência marcante e não apenas mais um filme de sustos.</p>
+                    <img src="img/filme 2.2.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer"></div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Freira 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O filme transmite emoções que vão da inquietação ao verdadeiro terror, com uma atmosfera constante de tensão e mistério.
+                         O medo, neste caso, não vem apenas da entidade em si, mas da sensação de que o mal pode se esconder nos lugares mais sagrados
+                          e corromper até a inocência. A fé da protagonista é constantemente posta à prova, 
+                          e o conflito interno entre o medo e a responsabilidade espiritual torna sua jornada emocionalmente densa. Ao mesmo tempo, 
+                          a narrativa também fala sobre sacrifício, superação e a força do espírito diante da escuridão, 
+                          fazendo com que o espectador sinta não só o medo do desconhecido, mas também a força da esperança diante do mal.</p>
+                    <p>Essa dualidade entre o sagrado e o profano é uma das marcas mais impactantes de A Freira 2. 
+                        O ambiente da escola religiosa, com sua arquitetura imponente e silêncio constante, 
+                        torna-se palco ideal para manifestar o medo de que até os espaços de proteção podem ser invadidos pelo mal. 
+                        As aparições de Valak são sempre envoltas em suspense visual e sonoro, criando momentos de angústia que refletem 
+                        o estado emocional da protagonista. O terror aqui não é apenas físico, mas também psicológico, refletindo dúvidas internas,
+                         traumas passados e a fragilidade da fé diante do horror.</p>
+                    <p>Ao longo da narrativa, a Irmã Irene evolui não apenas como combatente do mal, mas como figura humana que enfrenta sua própria escuridão.
+                         Sua conexão com outras personagens, especialmente com a jovem Sophie, reforça temas como empatia e proteção, mesmo em meio ao caos.|
+                         O filme, embora centrado no sobrenatural, é profundamente humano ao mostrar que, mesmo diante de uma entidade demoníaca, 
+                         é a luz interior alimentada por coragem, compaixão e fé  que se torna a verdadeira arma contra a escuridão.</p>
+                    <img src="img/filme 2.1 (1).jpg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-instagram"></i>
+            <a href="https://www.instagram.com/monyk_rr/">Instagram</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Criado por Monyk Ribeiro</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

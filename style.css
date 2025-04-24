@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #ffffff;
+    --cor-secundaria: #ffffff;
+    --cor-destaque: #ffffff;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    
+}
+
+h1, h2, h5 {
+    color:white;
+    font-weight: 700;
+
+}
+
+.lead, .btn-link {
+    color: white;
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color:white
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+.card-body{
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: var(--bs-modal-title-line-height);
+    color: rgb(255, 255, 255);
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(255, 255, 255)
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    pointer-events: auto;
+    background-color:rgb(0, 0, 0) ;
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+}
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(102, 6, 6) !important;
+}
